@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Mansão Blackwood</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>Você é um detetive particular e recebe uma carta anônima pedindo para investigar o desaparecimento de Eliza Blackwood. Recebido por uma criada, você conhece os membros da família, que estão perturbados e afirmam que Eliza desapareceu há uma semana. Desde então, a mansão tem estado estranha, com sussurros baixos e arrepiantes e aparições. Você sabe que há um problema, mas por onde começar sua investigação?</p>
+            <button class="btn-proximo" data-proximo="1">Investigar o quarto de Eliza</button>
+            <button class="btn-proximo" data-proximo="2">Conversar com a família para coletar mais informações</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Decidindo investigar o quarto de Eliza primeiro, você sente uma energia estranha. O ambiente está impecável. No criado-mudo, você encontra um diário de couro repleto de anotações perturbadoras sobre pesadelos e uma figura encapuzada que a perseguia nos sonhos. Eliza menciona, em uma das páginas, o espelho no sótão e como ele refletia coisas que não estavam lá.</p>
+            <button class="btn-proximo" data-proximo="3">Subir até o sótão e investigar o espelho</button>
+            <button class="btn-proximo" data-proximo="4">Voltar ao salão principal e confrontar a família com o que descobriu no diário</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Conversando com a família, você acaba descobrindo que Eliza agia de forma estranha antes de desaparecer. A irmã, Lydia, confessa que Eliza sempre falava sobre um antigo espelho no sótão que a aterrorizava. Você percebe que essa menção ao espelho pode ser crucial para a investigação.</p>
+            <button class="btn-proximo" data-proximo="5">Subir até o sótão para investigar o espelho mencionado</button>
+            <button class="btn-proximo" data-proximo="6">Pedir para ir ao quarto de Eliza, onde ela foi vista pela última vez</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você decide ir até o sótão e encontra um espelho antigo coberto por um lençol branco, no centro. Ao descobri-lo, você se vê refletido, mas nota uma sombra ao fundo que desaparece quando se vira. O espelho distorce sua própria imagem e mostra Eliza sendo arrastada por uma figura encapuzada.</p>
+            <button class="btn-proximo" data-proximo="7">Investigar o espelho para tentar quebrar seu poder</button>
+            <button class="btn-proximo" data-proximo="8">Deixar o sótão e contar à família o que viu</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Ao investigar o quarto de Eliza, você encontra um diário no criado-mudo, mas as páginas estão quase em branco, com algumas palavras que aparecem e desaparecem. Além disso, nota uma marca na parede, indicando que algo pesado foi retirado recentemente. Você sente que esse detalhe pode estar relacionado ao espelho mencionado pela família.</p>
+            <button class="btn-proximo" data-proximo="9">Subir até o sótão e investigar o espelho</button>
+            <button class="btn-proximo" data-proximo="10">Voltar ao salão principal e confrontar a família sobre a marca na parede</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Decidindo investigar o espelho, você encontra inscrições antigas na moldura em uma língua desconhecida. Lembrando de um livro de rituais na biblioteca da mansão, você vai buscá-lo para decifrar as inscrições. Com o livro, descobre que o espelho foi usado em rituais de invocação e está ligado a uma entidade sombria. Para quebrar seu poder, é necessário destruí-lo em um local sagrado.</p>
+            <button class="btn-proximo" data-proximo="11">Tentar destruir o espelho na capela abandonada próxima à mansão</button>
+            <button class="btn-proximo" data-proximo="12">Levar o espelho a para a biblioteca, onde você pode encontrar mais informações sobre como lidar com a entidade</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Decidindo confrontar a família sobre o que viu no espelho, o pai de Eliza confessa que o espelho é uma relíquia amaldiçoada, passada de geração em geração, e que Eliza pode ter sido atraída para dentro dele por uma força maligna. Lydia sugere que o espelho deve ser destruído para libertar  a irmã e acredita que a capela abandonada nos terrenos da mansão pode ser o único lugar para isso.</p>
+            <button class="btn-proximo" data-proximo="13">Levar o espelho para a capela e tentar destruí-lo</button>
+            <button class="btn-proximo" data-proximo="14">Deixar o espelho na mansão e tentar um exorcismo com ajuda de um sacerdote da cidade</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Levando o espelho para a capela, você o coloca no altar e recita as palavras do ritual encontrado no livro. O espelho vibra e se quebra em mil pedaços, enquanto um grito agonizante ecoa e uma sombra escapa pela janela. Ao retornar à mansão, você encontra a família reunida e descobre que Eliza, pálida e fraca, foi resgatada de dentro do espelho. Assim, a maldição foi quebrada, e a família Blackwood finalmente está livre.</p>
+            <button class="btn-proximo" data-proximo="15">Fim do jogo</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você decide levar o espelho para a biblioteca, mas, ao chegar, sente uma presença assustadora ao seu redor. As luzes piscam e uma força invisível empurra o espelho de suas mãos, fazendo-o cair e quebrar. Entretanto, ao invés de libertar Eliza, uma sombra grotesca emerge dos fragmentos quebrados e toma conta da mansão. Você tenta fugir, mas é capturado pela entidade, tornando-se mais uma alma perdida dentro dos muros assombrados.</p>
+            <button class="btn-proximo" data-proximo="17">Fim de jogo</button>
+        </div>
+        <div class="passo" id="passo-09">
+            <p>Parabéns, você chegou ao fim do jogo! Obrigado por participar desta aventura. Até a próxima!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
